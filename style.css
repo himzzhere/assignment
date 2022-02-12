@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background-color: #252329;
+}
+
+#form {
+  width: 500px;
+  background-color: #252329;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 7px 29px 0px;
+}
+
+#form h1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.form-data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+label {
+  font-size: 14px;
+  color: white;
+}
+
+input {
+  margin: 20px 0;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.1);
+  outline: none;
+  background-color: #313339;
+  color: white;
+  font-size: 16px;
+}
+
+.error {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  color: red;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #2f80ed;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.2s ease;
+}
+
+#submit:active {
+  transform: scale(0.95);
+}
